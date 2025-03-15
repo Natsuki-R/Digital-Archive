@@ -1,6 +1,6 @@
 const isProduction = window.location.hostname !== 'localhost' &&
     !window.location.hostname.includes('127.0.0.1');
-const basePath = isProduction ? '.' : '/public';
+const basePath = '';
 
 console.log('isProduction', isProduction);
 console.log('basePath', basePath);
